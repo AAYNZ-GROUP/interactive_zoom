@@ -53,6 +53,8 @@ git checkout -b issue-123-fix-bug
 
 1. **Work on the Task**: Implement your changes, commit them locally, and push the branch to GitHub.
 ```bash
+# check being up to date with 
+git pull origin main 
 # add your latest changing to staging are in your local machine
 git add . 
 # commit your changes to the branch you created
