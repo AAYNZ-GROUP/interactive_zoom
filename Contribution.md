@@ -1,5 +1,3 @@
-New line
-
 ## Table of Contents
 
 1. [Task and Issue Management](#1.task-and-issue-management)
@@ -43,10 +41,11 @@ git clone https://github.com/your-repo-url.git
 # move to your local main branch
 git checkout main
 # pull the latest changes from the global main branch
+git branch branchname
 # to make sure u are up to date
 git pull origin main
 # create and move to your new branch
-git checkout -b issue-123-fix-bug
+git checkout  issue-123-fix-bug
 ```
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8888x42nvol3ulaei9jg.png)
