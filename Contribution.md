@@ -1,5 +1,3 @@
-New line
-
 ## Table of Contents
 
 1. [Task and Issue Management](#1.task-and-issue-management)
@@ -41,12 +39,17 @@ git clone https://github.com/your-repo-url.git
 
 ```bash
 # move to your local main branch
-git checkout main
+git checkout main  
 # pull the latest changes from the global main branch
+git branch branchname
+# follow the naming convention
+```
+[Branch Naming Convention](./conventions.md#branch-naming-convention.md)
+```bash
 # to make sure u are up to date
 git pull origin main
 # create and move to your new branch
-git checkout -b issue-123-fix-bug
+git checkout -b branchname
 ```
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8888x42nvol3ulaei9jg.png)
@@ -64,6 +67,9 @@ git pull origin main
 git add .
 # commit your changes to the branch you created
 git commit -m "Fix bug related to issue #123"
+```
+[commit messages naming convention](./conventions.md#commit_messages-naming-convention)
+```bash
 # push the branch you created to github
 git push origin issue-123-fix-bug
 ```
